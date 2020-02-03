@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.content{
+	width: 706px;
+	margin: 0 auto;
+	padding: 27px 10px 10px 10px; 
+	background: blue;
+}
+.main{
+background: #fff;
+width: 685px;
+padding: 0px 23px;
+padding-bottom: 25px;
+
+}
+.main_wrapper{
+	padding: 17px 50px 30px 50px;
+}
+.main_content{
+	
+}
+.main_text p{
+	padding-top: 40px; 
+}
+.main_title{
+	
+}
+.item p{
+	text-align: center;
+	padding: 21px 0px;
+}
+ul{
+	padding: 20px 0px 34px 40px;
+}
+header{
+
+}
+.item-padd{
+	padding-right: 29px;
+	float: left;
+}
+button{
+	color: #ffffff;
+	display: block;
+	width: 255px;
+	height: 42px;
+	background: #f04737;
+	border:none;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+.clearfix{
+	clear:left;
+	padding-top: 30px;
+}
+.main_content p{
+	padding: 37px 0px;
+}
+footer{
+	background-color: #3a849b;
+	color: #ffffff;
+	text-align: center;
+
+}
+.icon_fb{
+	/*float: left;*/
+	width: 31px;
+}
+.icon_vk{
+
+	width: 31px;
+}
+.social{
+	display: flex;
+	width: 73px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+h1{
+	padding: 23px 0px;
+}
+footer p{
+padding-bottom: 12px; 
+}
+.link_footer{
+	padding-bottom: 25px;
+}
