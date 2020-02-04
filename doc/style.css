@@ -99,3 +99,12 @@ footer{
 	color: #ffffff;
 	font-weight: bold;
 }
+.link_color_top{
+	color:#348cd7;
+}
+.link_color_footer{
+	color: #0f62c9;
+}
+.footer_text_title{
+	font-weight: bold;
+}
