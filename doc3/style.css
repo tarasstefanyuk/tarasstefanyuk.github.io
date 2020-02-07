@@ -1,0 +1,155 @@
+:root{
+	--brand-color:#d1d1d1;
+	--btn-color:#cf5b4e;
+};
+body{
+	font-family:arial, sans-serif ;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.page-wrap{
+	position: relative;
+	width: 760px;
+	margin:0 auto;
+	padding: 57px 62px 109px 58px;
+	background-color:var(--brand-color );
+}
+.main-wrap{
+	
+	background-color: #fff;
+}
+header{
+	min-height: 150px;
+
+}
+section{
+	padding: 59px 50px 30px;
+}
+.text-center{
+
+	text-align: center;
+}
+.main-text p:first-child span{
+	display: block;
+	}
+	.main-text p span{
+	font-weight: bold;
+	}
+.main-text>p:first-child{
+
+	padding-bottom: 18px;
+}
+.main-text>p{
+
+	padding-bottom: 35px;
+}
+.main-text {
+	line-height: 1.5;
+	
+}
+.main-text ul{
+	padding-left: 40px;
+}
+.offer{
+	/*position: relative;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float: left;
+	width: 255px;
+	min-height: 307px;
+	margin-right: 30px;
+	
+}
+.row{
+	display: flex;
+	margin-right: -30px;
+	margin-bottom: 30px;
+
+}
+.row_botton .offer{
+	width: calc(33% - 30px);
+}
+.clearfix{
+	clear: both;
+}
+.offer__img{
+	height: 213px;
+}
+.btn{
+	width: 100%;
+/*	position: absolute;
+	bottom: 0;*/
+	display: block;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	color: #fff;
+	background-color: var(--btn-color);
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.offer__text{
+	text-align: center;
+	
+}
+.offer__text span{
+	font-weight: bold;
+	
+}
+.btn_contact{
+	height: 46px;
+	line-height: 46px;
+}
+footer span{
+	display: block;
+	text-align: center;
+	color: #fff;
+}
+
+footer span:first-child, footer span:last-child{
+	font-weight: bold;
+}
+footer span:last-child>a{
+	color:#fff;
+}
+.icon{
+
+	float: left;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background-image: url('img/spritesheet.png');
+	margin-right: 10px;
+}
+.icon a{
+	display: block;
+	width: 100%;
+}
+.row_icon{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+	padding-bottom: 30px;
+	
+
+}
+.main-text:last-child p:last-child{
+	font-style:italic;
+}
