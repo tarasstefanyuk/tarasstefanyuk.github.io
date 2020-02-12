@@ -1,0 +1,85 @@
+
+<!-- item-list
+menu-item -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+	<meta charset="UTF-8">
+	<title>calc</title>
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="menu_item">
+			<div class="menu_item_left">
+				
+				<div class="menu_item_left_img">
+					<div id="close">Відкрити/Закрити меню</div>
+					<img src="img/burger.jpg" alt="" width="329px;">
+				</div>
+				<div class="menu_item_left_text">
+					<p>
+					Бугрер <br>italian <br>!<br>
+					<span>Усього</span> 79 грн</p>
+				</div>
+			</div>
+			<div class="menu_item_right" id="menu_item">
+				<h1>Лови момент!</h1>
+				<div class="item_list_wrap_right ">
+					<div class="item_list">
+						<div class="item_list_proffer item_list_uppercase">michigan</div>
+						<div class="item_list_price">64.00 грн</div>
+					</div>
+					<div class="item_list">
+						<div class="item_list_proffer">BeeF BBQ</div>
+						<div class="item_list_price">59.00 грн</div>
+					</div>
+					<div class="item_list">
+						<div class="item_list_proffer">Cheeseburger</div>
+						<div class="item_list_price">59.00 грн</div>
+					</div>
+					<div class="item_list">
+						<div class="item_list_proffer item_list_uppercase">ketchup room</div>
+						<div class="item_list_price">68.00 грн</div>
+					</div>
+					<div class="item_list">
+						<div class="item_list_proffer item_list_uppercase">ketchup room2</div>
+						<div class="item_list_price">72.00 грн</div>
+					</div>
+
+					<div class="item_list">
+						<div class="item_list_proffer item_list_uppercase">elvis</div>
+						<div class="item_list_price">55.00 грн</div>
+					</div>
+				</div>	
+				<div class="menu_btn" id="btn">
+					<a href="#">Все меню</a>
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+				
+				var btn = document.getElementById("btn");
+var menuItem = document.getElementById("menu_item");
+var cls = document.getElementById("close");
+btn.addEventListener("click", toggleMenu);
+function toggleMenu(){
+
+	menuItem.classList.toggle("show");
+}
+cls.addEventListener("click", toggleMenu);
+				
+	</script>
+</body>
+</html>
