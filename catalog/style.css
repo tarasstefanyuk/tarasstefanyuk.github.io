@@ -1,0 +1,146 @@
+:root{
+  --brand-color:#3e898c;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+img{
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.wrapper{
+	width: 1032px;
+	margin:0 auto;
+	padding: 19px 29px 50px;
+	
+}
+.wrap_item{
+
+	position: relative;
+	display: flex;
+}
+.wrapper>h1{
+	text-align: center;
+	padding-bottom: 62px;
+}
+.menuItem_category{
+	color: #72767a;
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 34px;
+	border-bottom: 1px solid #d3d3d3;
+	position: relative;
+}
+.menuItem{
+	padding: 0px 18px 37px;
+	border:1px solid #d3d3d3;
+	width: 242px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	position: relative;
+}
+.menuItem_img{
+	max-height: 191px;
+	padding-top: 20px;
+}
+.menuItem_scrolling{
+	position: absolute;
+	background: #ffffff;
+	border:2px solid #d3d3d3;
+	border-radius: 50%;
+	top: 83px;
+	width: 37px;
+	height: 37px;
+	z-index: 5;
+}
+.scrolling_left{
+	left: -18px;
+		
+}
+.scrolling_right{
+	right: -14px;
+	
+	transform: rotate(180deg);
+}
+.menuItem_scrollingbtn{
+	width: 12px;
+	height: 12px;
+	transform: rotate(45deg);
+	border-left: 2px solid #d3d3d3;
+	border-bottom: 2px solid #d3d3d3;
+	position: absolute;
+	left: calc(50% - 5.15px);
+	top: calc(50% - 5.15px);
+}
+.menuItem_scrolling:hover{
+	cursor: pointer;
+	background: #009de1;
+
+}
+
+.menuItem_name{
+	color: #009be1; 
+	padding-top: 32px;
+	text-align: center;
+
+}
+.menuItem_btn{
+	width: 141px;
+	height: 41px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 41px;
+
+}
+.menuItem_btn_color_basket{
+	background: #f0e524;
+}
+.menuItem_btn_new{
+	background: #cc3399;
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 67px;
+
+}
+.item_new{
+	
+	position: absolute;
+	right: 10px;
+	top:-32px;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	color: #ffffff;
+	line-height: 66px;
+	font-size: 9px;
+	text-align: center;
+	box-shadow: 0px 0px 0px 4px #ffffff;
+}
+.item_new_style{
+
+	background: #86b022;
+}
+.item_hit{
+	background: #009de1;
+
+}
+.price{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 27px;
+	font-weight: bold;
+}
+.old_price{
+	font-weight: normal;
+	padding-right: 10px;
+	font-size: 10px;
+	text-decoration: line-through;
+}
