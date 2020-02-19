@@ -1,0 +1,160 @@
+
+/* General */
+header, .services, .blog{
+ 	width: 67%;
+	margin: 0 auto;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+img{
+	display: block;
+	width: 100%;
+}
+p{
+	color: #b0b0b0;
+}
+.container h2{
+	text-align: center;
+}
+.brand{
+	padding-top: 20px;
+	color: #b3c1d4;
+
+}
+ .menu{	
+	
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+header .menu{
+			text-align: right;
+		}
+footer .menu{
+			text-align: center;
+		}
+.menu li{
+
+	list-style: none;
+
+}
+.menu li a:hover{
+
+	color: black;
+
+}
+.menu li a{
+	color: #bdbdbd;
+	text-decoration: none;
+}
+.jumbotron{
+	text-align: center;
+	color: #fff;
+	
+	display: none;
+	min-height: 410px;
+	background-image: url('../img/jumbotron.jpg');
+}
+.jumbotron h1{
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+.jumbotron .button{
+	border-radius: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	display: block;
+	width: 240px;
+	height: 60px;
+	background-color: #fa5ba5;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.service{
+	display: flex;
+	flex-direction: column;
+	color: #979797;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+/* Header */
+.fa{
+	display: block;
+	text-align: center;
+}
+
+
+/* Services */
+
+.post{
+	padding-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Blog */
+
+
+
+/* Footer */
+footer{
+	background-color: #38404b;
+	text-align: center;
+}
+ul{
+	padding: 0px;
+}
+
+
+@media screen and (min-width:800px)  {
+	header{
+		height: 94px;
+		line-height: 94px;
+	}
+	header .brand{
+		padding-top: 0px;
+	}
+	footer .brand{
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+	.service-wrap{
+		display: flex;
+	}
+	.service{
+		width: 33.3%;
+		padding: 0px 20px;
+	}
+	.menu li{
+
+	padding-left: 20px;
+
+}
+	 .menu{
+	 	margin: 0px;
+		flex-direction: row;
+		}
+		footer .menu{
+			text-align: center;
+		}
+.jumbotron{
+	display: block;
+}
+.post{
+	flex-direction: row;
+}
+.post_img{
+	padding-right: 30px;
+}
+h2{
+	padding-top: 80px;
+	padding-bottom: 57px;
+}
+
+}
